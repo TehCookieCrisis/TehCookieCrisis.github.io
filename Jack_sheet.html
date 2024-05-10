@@ -1,0 +1,1861 @@
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Esteban&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<STYLE TYPE="TEXT/CSS">
+		:root {
+			/*********** FRAME **********/
+			--sheet-width: 650px;
+			--outerframe-border-style: double;
+			/*****************************/
+
+			/*********** COLORS **********/
+			--outerframe-color: #4c0e0e;
+			--main-color: #921f1f;
+			--heading-color: #6b1313;
+			--background-color: #000000;
+			--greybox-color: #000000;
+			--quote-color: #666666;
+			--blood-accent-color: #dd1010;
+			--text-color: #9e9c9c;
+			/*****************************/
+
+			/***** FONTS & FONT-SIZE *****/
+			--text-font: calibri;
+			--text-font-size: 13px;
+					/**/
+			--title-font: 'Almendra', serif;
+			--title-font-size: 23px;
+					/**/
+			--quote-font: "Just Another Hand", cursive;
+			--quote-font-size: 20px;
+					/**/
+			--h1-font: "Bellefair", serif;
+			--h1-font-size: 27px;
+					/**/
+			--listheading-font: 'Martel', serif;
+			--listheading-font-size: 15px;
+			/*****************************/
+
+			/********** PADDING **********/
+			--frame-padding: 20px;
+			--listpadding: 0px 5px 0px 0px;
+			/*****************************/
+		}
+
+		body {
+			background-color: var(--background-color);
+		}
+
+		#outerframe {
+			width: var(--sheet-width);
+			background: var(--background-color);
+			border: var(--outerframe-border-style) 12px var(--outerframe-color);
+			padding: var(--frame-padding);
+			font-family: var(--text-font);
+			font-size: var(--text-font-size);
+			margin: 0 auto;
+		}
+
+		#titlepicture {
+			border: solid 1px var(--main-color);
+			margin: 0px 0px var(--frame-padding) 0px;
+		}
+
+		#titlename {
+			font-family: var(--title-font);
+			font-size: var(--title-font-size);
+			text-transform: uppercase;
+			color: var(--main-color);
+		}
+
+		#titlequote {
+			font-family: var(--quote-font);
+			font-size: var(--quote-font-size);
+			color: var(--quote-color);
+			letter-spacing: 2px;
+			word-spacing: 5;
+			font-style: italic;
+		}
+
+		.quotationmarks {
+			font-family: 'Abril Fatface', cursive;
+			font-size: 40px;
+			color: var(--blood-accent-color);
+		}
+
+		/*TRANSFORM UPPERCASE*/
+		h1,
+		.h4,
+		.specialties,
+		.listheading {
+			text-transform: uppercase;
+		}
+
+
+		h1,
+		.specialties {
+			font-weight: normal;
+			font-family: var(--h1-font);
+			color: var(--heading-color);
+		}
+
+		h1 {
+			font-size: var(--h1-font-size);
+			margin: 20px 0 -10px 0;
+		}
+
+		.h2,
+		.h3 {
+			font-family: var(--listheading-font);
+			font-weight: bold;
+		}
+
+		.h2 {
+			font-size: var(--listheading-font-size);
+			margin: -5px;
+		}
+
+		.h3 {
+			font-size: 12px;
+		}
+
+		.h4 {
+			font-family: 'Abril Fatface', cursive;
+			font-size: 30px;
+			margin: -7px 0 0 0;
+		}
+
+		.blue {
+			color: var(--main-color);
+		}
+
+		.right {
+			text-align: right;
+		}
+
+		.greybox,
+		.floatspecialty {
+			background: var(--greybox-color);
+			padding: 10px;
+			text-align: justify;
+			color: var(--text-color);
+		}
+
+		.greybox,
+		.listtitle,
+		.relation_info,
+		.specialties {
+			font-size: var(--text-font-size);
+		}
+
+		.listheading {
+			color: var(--blood-accent-color);
+			padding: var(--listpadding);
+			font-family: var(--h1-font);
+			font-size: var(--listheading-font-size);
+		}
+
+		.listtitle {
+			padding: var(--listpadding);
+			font-weight: bold;
+			font-family: 'Martel', serif;
+			letter-spacing: 3px;
+		}
+
+		.backgrounds_margin {
+			margin: -7px 0 0 0;
+		}
+
+		.indentation {
+			text-indent: 25px;
+		}
+
+		.quotation {
+			font-size: 10px;
+			font-style: italic;
+		}
+
+		.backgrounds_retainer_ally_contact,
+		.backgrounds_picture {
+			border: solid 1px var(--main-color);
+		}
+
+		.backgrounds_retainer_ally_contact {
+			border-radius: 50%;
+			width: 15%;
+			margin: -0.6px 0 -0.6px 0;
+		}
+
+		.specialtyfloat {
+			width: 50%;
+		}
+
+		.floatleft {
+			float: left;
+		}
+
+		.floatright {
+			float: right;
+		}
+
+		.floath2 {
+			box-sizing: border-box;
+			padding: 5px;
+			background: #0f0f0f;
+			font-family: verdana;
+			font-size: 10px;
+			border-left: solid 5px var(--outerframe-color);
+			text-align: left;
+			text-transform: uppercase;
+			color: var(--quote-color);
+		}
+
+		.floatspecialty {
+			font-size: 11px;
+			margin: 2px 2px 2px 0px;
+		}
+
+		.skilldot:before {
+			content: "\25C9";
+			font-size: 18px;
+		}
+
+		.skilldotempty:before {
+			content: "\25CB";
+			font-size: 26px;
+		}
+
+		.bloodpooldot:before {
+			content: "\25A0";
+			font-size: 23px;
+		}
+
+		.bloodpooldotempty:before {
+			content: "\25A1";
+			font-size: 23px;
+		}
+
+		.n-ary {
+			font-size: 10px;
+		}
+
+		.othertraits {
+			margin-right: 23%
+		}
+
+		.tooltip {
+			position: relative;
+			display: inline-block;
+			border-bottom: 1px dashed #bcbcbc;
+		}
+
+		/***********This is the base of the tooltip hover********/
+		.tooltip .attributes,
+		.tooltip .abilities,
+		.tooltip .advantages,
+		.tooltip .advantages2,
+		.tooltip .n-ary,
+		.tooltip .merits,
+		.tooltip .flaws,
+		.tooltip .explanations {
+			visibility: hidden;
+			width: 120px;
+			background-color: var(--outerframe-color);
+			color: #baaeae;
+			text-align: center;
+			border-radius: 6px;
+			font-family: 'Esteban', serif;
+			font-optical-sizing: auto;
+			font-size: 14px;
+			letter-spacing: 0.5px;
+			line-height: 1.3;
+			font-weight: normal;
+			line-height: 120%;
+
+			/* Position the tooltip */
+			position: absolute;
+			z-index: 1;
+			margin-top: -63px;
+			margin-left: -4px;
+		}
+
+		/***********End********/
+		.tooltip .attributes {
+			margin-top: -48px;
+			padding: 5px 8px;
+		}
+
+		.tooltip .attributes.larger {
+			margin-top: -57px;
+		}
+
+		.tooltip .abilities {
+			width: 150px;
+			padding: 5px 8px;
+			margin-top: -48px;
+		}
+
+		.tooltip .abilities.larger {
+			margin-top: -65px;
+		}
+
+		.tooltip .advantages {
+			margin-top: -37px;
+		}
+
+		.tooltip .advantages.larger {
+			margin-top: -54px;
+		}
+
+		.tooltip .advantages2 {
+			margin-top: -55px;
+		}
+
+		.tooltip .advantages.even_larger,
+		.tooltip .advantages.extra_large,
+		.tooltip .advantages2.larger {
+			margin-top: -71px;
+		}
+
+		.tooltip .advantages2.extra_large {
+			width: 150px;
+		}
+
+		.tooltip .n-ary {
+			width: 250px;
+			margin-left: 5px;
+			margin-top: -9px;
+			padding: 5px 9px;
+		}
+
+		.tooltip .merits {
+			margin-top: -29px;
+		}
+
+		.tooltip .flaws {
+			margin-top: -44px;
+		}
+
+		.tooltip .explanations {
+			width: 600px;
+			margin-left: 5px;
+			margin-top: -12px;
+			text-align: justify;
+			text-indent: 20px;
+			padding: 14px 15px 14px 15px;
+		}
+
+		.tooltip:hover .attributes,
+		.tooltip:hover .abilities,
+		.tooltip:hover .advantages,
+		.tooltip:hover .advantages2,
+		.tooltip:hover .merits,
+		.tooltip:hover .flaws,
+		.tooltip:hover .n-ary,
+		.tooltip:hover .explanations {
+			visibility: visible;
+		}
+
+		.tree,
+		.tree ul,
+		.tree li {
+			list-style: none;
+			margin: 0;
+			padding: 1;
+			position: relative;
+			font-size: var(--text-font-size);
+		}
+
+		.tree {
+			margin: 1em 0 0;
+			text-align: center;
+		}
+
+		.tree,
+		.tree ul {
+			display: table;
+		}
+
+		.tree ul {
+			width: 100%;
+		}
+
+		.tree li {
+			display: table-cell;
+			padding: .5em 0;
+			vertical-align: top;
+		}
+
+		.tree li:before {
+			outline: solid 1px #666;
+			content: "";
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+
+		.tree li:first-child:before {
+			left: 50%;
+		}
+
+		.tree li:last-child:before {
+			right: 50%;
+		}
+
+		.tree code,
+		.tree span {
+			border: solid .1em #666;
+			border-radius: .2em;
+			display: inline-block;
+			margin: 0 .2em .5em;
+			padding: .2em .5em;
+			position: relative;
+		}
+
+		.tree ul:before,
+		.tree code:before,
+		.tree span:before {
+			outline: solid 1px #666;
+			content: "";
+			height: .5em;
+			left: 50%;
+			position: absolute;
+		}
+
+		.tree ul:before {
+			top: -.5em;
+		}
+
+		.tree code:before,
+		.tree span:before {
+			top: -.55em;
+		}
+
+		.tree>li {
+			margin-top: 0;
+		}
+
+		.tree>li:before,
+		.tree>li:after,
+		.tree>li>code:before,
+		.tree>li>span:before {
+			outline: none;
+		}
+
+		hr {
+			border: none;
+			border-top: 5px dashed var(--quote-color);
+			margin: -1 1;
+		}
+
+		.under-quote-line {
+			width: 30%;
+		}
+
+		table {
+			width: 100%;
+			color: var(--text-color);
+			padding: 0 15 0 0px;
+			text-align: center;
+			line-height: 110%;
+		}
+
+		.left {
+			text-align: left;
+		}
+
+		table td.end {
+			padding-right: 23px;
+		}
+
+		.wider {
+			width: 150px;
+		}
+
+		.self_control {
+			min-width: 80px;
+		}
+
+		th {
+			font-family: 'Amarante', cursive;
+			font-size: 20px;
+		}
+
+		td,
+		th {
+			border: none;
+		}
+	</STYLE>
+</head>
+<meta charset="utf-8" />
+
+<body><meta charset= "utf-8"/>
+	<div id="outerframe">
+		<center>
+		<img src="https://i.imgur.com/0OCJ4vY.png"
+			id="titlepicture"></br>
+		<font id="titlename">Smiling Jack</font></br>
+		<div id="titlequote">
+			<span class="quotationmarks">“</span>
+			Every time I yank a jawbone from a skull and ram it into an eyesocket,</br>
+			I know I'm building a better future.
+			<span class="quotationmarks">”</span>
+		</div></br>
+		<img
+			src="https://i.imgur.com/egrroYE.png">
+		</br></br>
+		<hr class="under-quote-line">
+		<h1>Personal Facts</h1>
+		<div class="greybox"></br>
+			<font class="listheading">Concept |</font>
+			<font class="listtitle">A rebel who don't need no cause</font></br>
+				Jack is an Iconoclast of Clan Brujah and a canon character of the <i>World of Darkness</i> franchise and
+				Bloodlines in particular.
+				He is an Anarch of some renown and battles authority and hierarchy just for the sake of it.</br>
+				To stay as lore accurate as possible, I used canon info from the following sources:
+				<ul>
+					<li>Vampire: The Masquerade - Anarchs Unbound</li>
+					<li>Vampire: The Masquerade - Bloodlines</li>
+					<li>Vampire: The Masquerade - Children of the Night</li>
+					<li>Vampire: The Masquerade - Clanbook Brujah</li>
+					<li>Vampire: The Masquerade - Clanbook Brujah Revised</li>
+					<li>Vampire: The Masquerade - Encyclopaedia Vampirica</li>
+					<li>Vampire: The Masquerade - Guide to the Anarchs</li>
+					<li>Vampire: The Masquerade - Lore of the Clans</li>
+					<li>Vampire: The Masquerade - Los Angeles by Night</li>
+					<li>Vampire: The Masquerade - Sins of the Blood</li>
+					<li> Victorian Age: Vampire - London by Night</li>
+				</ul>
+			</br>
+			<font class="listheading">Name |</font>
+			<font class="listtitle">Smiling Jack</font></br>
+				The only indication we have in canon, for any "real" Name Jack might be bearing, is in <i>London by
+				Night</i>, where he is listed
+				as his childe Herbert Westin's sire <i>"Smiling" Jack Drake</i>. I sincerely doubt though, that it is his
+				mortal name, as he refuses
+				to speak much of the time prior to his embrace and it feels like a pseudonym - naming himself after a
+				legendary privateer he must
+				have heard stories about, when he was a boy (Sir Francis Drake).</br>
+				However, in the old version of his character sheet, I put his birthname as <i>William John Baldey</i>.</br>
+			</br>
+			<font class="listheading">Clan |</font>
+			<font class="listtitle">Brujah</font></br>
+			</br>
+			<font class="listheading">Generation |</font>
+			<font class="listtitle">10</font></br>
+				Official from <i>LA by Night</i>.</br>
+				I had it in the old character sheet, that this was reached via Diablerie. But I don't actually know if Jack
+				would do that. He
+				<i>is</i> rather unconcerned if his violence causes someone else harm, and, if the opportunity presented and
+				he knew he could get
+				away with it: probably. But he was embraced in 1654; 10th Gen was rather on the high end.</br>
+			</br>
+			<font class="listheading">Sect |</font>
+			<font class="listtitle">Anarchs</font></br>
+			</br>
+			<font class="listheading">Age |</font>
+			<font class="listtitle">*1611 - †1654</font></br>
+				Official from <i>LA by Night</i>.</br>
+				Jack was embraced at the age of <b>43</b> and has physically remained that age for the past <b>351</b> years
+				(as of 2005).</br>
+				Adding his time as a human, he has been on this earth for <b>394</b> years in total; making him - <i>at
+				least in theory</i> an Elder.</br>
+			</br>
+			<font class="listheading">Origin |</font>
+			<font class="listtitle">British by birth, Caribbean by choice</font></br>
+				The canon information doesn't give much more than <i>Caribbean pirate</i>, but not much otherwise. Since his
+				birth name is unknown, we can only guess by the color of his skin and birthdate, that he is likely European.</br>
+				The old character sheet I made him a native of Bristol, England. Reading up on the history, he was likely an
+				early buccanier and had frequent violent run-ins with the Spanish.</br>
+			</br>
+			<font class="listheading">Nature |</font>
+			<font class="listtitle">
+				<div class="tooltip">Bravo
+					<span class="explanations">The Bravo is a tough and a bully, and often takes perverse pleasure in 
+						tormenting the weak. To the Bravo's mind, might makes right. Power is what	matters, and only 
+						those with power should be respected. Naturally, physical power is the best kind, but any kind 
+						will do. The Bravo sees overt threats as a perfectly reasonable means of gaining cooperation. 
+						The Bravo is not incapable of pity or kindness; he just prefers to do things his way. Robbers, 
+						bigots, and thugs are all Bravo Archetypes. A Kindred Bravo may abuse authority the system has 
+						granted him, or he may — violently or otherwise — force other Kindred out of his way to get what 
+						he wants.He's almost certainly an asshole.</br>
+						— Regain a point of Willpower any time you achieve your agenda through brutishness or intimidation. 
+						This need not be physical, as many Bravos verbally or socially cow their victims.</br>
+						<font class="quotation">(V20 Core p. 88)</font>
+					</span>
+				</div>
+			</font></br>
+				Official from <i>LA by Night</i>.</br>
+			</br>
+			<font class="listheading">Demeanor |</font>
+			<font class="listtitle">
+				<div class="tooltip">Rebel
+					<span class="explanations">The Rebel is a malcontent, never satisfied with the status 
+						quo or the system as it is. He hates the very idea of authority and does everything in his power to challenge 
+						and undermine it. Perhaps the Rebel truly believes in his ideals, but it is just as likely that he bears 
+						authority figures some ill will over a “wrong” done to him in the past. A Rebel may hate institutions
+						categorically, or she may be consumed with opposition toward a single particular authority. Teenagers, 
+						insurrectionists, and nonconformists all exemplify the Rebel Archetype. Rebel Kindred certainly include 
+						the Sabbat, Anarchs, and temperamental Brujah, but also have room for Tremere who chafe at the rigid
+						Clan hierarchy or neonates who deplore their sires.</br>
+						— Regain a point of Willpower whenever your actions adversely affect your chosen opposition. Rebels may 
+						oppose the government, the Church, a vampire Prince, or any other holder of authority. The player should 
+						choose whom or what his character rebels against when he adopts this Archetype. Storytellers should take 
+						rebellion against “all authority” with a grain of salt, and apply the Willpower reward for such a broad 
+						concept to only greater and greater actions of insurgency.</br>
+						<font class="quotation">(V20 Core p. 94)</font>
+					</span>
+				</div>
+			</font></br>
+				Official from <i>LA by Night</i>.</br>
+				As for choosing whomst to rebel against: it is <i>mostly</i> authority in general, with whom Jack has
+				a problem, as this is a developmental issue from mortal days, but also a philosophy taken to the extreme.
+				It's not necessarily, that he is against the very concept of hierarchy - a ship needs a captain to be steered - 
+				but he sees himself as the balancer to keep the level of hierarchy to a minimum. If there absolutely <i>has</i> 
+				to be a particular enemy to rebel against it would be the <b>Ventrue</b> and, to a lesser degree, <b>the Spanish</b>.
+			</br></br>
+			<font class="listheading">Childer |</font>
+			<font class="listtitle">Dre, Shelly & more...</font></br>
+				Both mentioned official from <i>Lore of the Clans</i>.</br>
+				Jack is a menace to society. He doesn't see it that way, but that's how a lot of people would describe him. It is for 
+				a whole variety of reasons, however, one of them surely has got to be Jack's careless siring of Caitiff and orphaned 
+				fledgelings.</br>
+				There <i>is</i> method to the madness, as ellusive as that method may be, but Jack tries to generally only sire those 
+				whomst he thinks have a fighting chance. Jack doesn't make Shovelheads, he wants to make Brujah. And Brujah are sure as 
+				fuck not made by handholding. And maybe he also wants scare those old fucks shitless with all the Caitiff suddenly 
+				running around like they are harbingers of Gehenna. And if Gehenna is real, well... Why wait?</br></br>
+				Be that as it may, Jack usually likes to leave a fledgeling whenever he travels outside of LA. A little present for the 
+				local prince to deal with. Dre, a Chicagonian Neonate embraced 25 years ago, an Shelly, a new acquisition to the Clan 
+				within the same city, are but two of the many siblings throughout the continential United States, Canada and Mexico. There 
+				are a few outside of North America (if they are still kicking, that is), but, since Jack travels there more rarely, they 
+				aren't as numerous.</br>
+				</br>
+				Contrary to popular belief, Herbert Westin is not actually Jack's progeny, even though he seems to tell everybody that. Some 
+				asshole calling himself <i>"Smiling" Jack Drake</i> must have turned that punk sometime in the 1850s, gave his brain a good washing 
+				and beat the damn whelp black and blue until his eventual emancipation. Not Jack's style. But everytime he's in New York someone 
+				gives him shit about Westin. You got the wrong Brujah, pal.</br>
+			<center>
+				<ul class="tree">
+					<li><span>Smiling Jack</span>
+						<ul>
+							<li><span>Dre</span></li>
+							<li><span>Shelly</span></li>
+							<li><span>...</span></li>
+						</ul>
+					</li>
+				</ul>
+			</center>
+		</div>
+
+		<h1>Attributes</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th colspan="6">Physical 
+						<span class="n-ary">
+							(
+								<div class="tooltip">primary
+									<span class="n-ary">
+										Extrapolated from Nature <i>Bravo</i> and STR 5, DEX 4, STA 5
+									</span>
+								</div>
+							)
+						</span>
+					</th>
+					<th colspan="6">Social 
+						<span class="n-ary">
+							(
+								<div class="tooltip">secondary
+									<span class="n-ary">
+										Extrapolated from CHA 5, MAN 4, and APP 2, which is more dots in <i>Social</i> than in <i>Mental</i>
+									</span>
+								</div>
+							)
+						</span>
+					</th>
+					<th colspan="6">Mental 
+						<span class="n-ary">
+							(
+								<div class="tooltip">tertiary
+									<span class="n-ary">
+										Extrapolated by method of exclusion</br> 
+									</span>
+								</div>
+							)
+						</span>
+					</th>
+				</tr>
+				<tr>
+					<td class="left">Strength</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">1/7 Creation-Dots in Physical;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">2/7 Creation-Dots in Physical;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">12 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><div class="tooltip"><span class="skilldot"></span><span class="attributes">16 XP</br><i>canonical</i></span></div></td>
+					<td class="left">Charisma</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">1/5 Creation-Dots in Social;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">2/5 Creation-Dots in Social;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">12 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><div class="tooltip"><span class="skilldot"></span><span class="attributes">16 XP</br><i>canonical</i></span></div></td>
+					<td class="left">Perception</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">1/3 Creation-Dots in Mental;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">8 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Dexterity</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">3/7 Creation-Dots in Physical;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">8 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">12 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Manipulation</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">3/5 Creation-Dots in Social;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">4/5 Creation-Dots in Social;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">12 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Intelligence</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">2/3 Creation-Dots in Mental;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Stamina</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">4/7 Creation-Dots in Physical;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">5/7 Creation-Dots in Physical;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">6/7 Creation-Dots in Physical;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">7/7 Creation-Dots in Physical;</br><i>canonical</i></span></div></td>
+					<td class="left">Appearance</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">5/5 Creation-Dots in Social;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Wits</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes larger">3/3 Creation-Dots in Mental;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">8 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">12 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+			</table>
+		</div></br>
+		<div><!-- this div is required for formatting -->
+			<span class="specialties">Specialties</span>
+		</div>
+		<div class="floatleft specialtyfloat">
+			<div class="floath2">Strength</div>
+			<div class="floatspecialty">♠ Lifting</br>
+										♠ Jumping</div>
+		</div>
+		<div class="floatleft specialtyfloat">
+			<div class="floath2">Stamina</div>
+			<div class="floatspecialty">♠ Tough as Nails</br>
+										♠ Unrelenting</div>
+		</div>
+		<div class="floatleft specialtyfloat">
+			<div class="floath2">Manipulation</div>
+			<div class="floatspecialty">♠ Make 'em think it was their idea all along</div>
+		</div>
+		<!---------------->
+		<div class="floatright specialtyfloat">
+			<div class="floath2">Dexterity</div>
+			<div class="floatspecialty">♠ Catlike Reflexes</br></div>
+		</div>
+		<div class="floatright specialtyfloat">
+			<div class="floath2">Charisma</div>
+			<div class="floatspecialty">♠ Rogueish Charm</br>
+										♠ Persuasive</br></div>
+		</div>
+		<div class="floatright specialtyfloat">
+			<div class="floath2">Wits</div>
+			<div class="floatspecialty">♠ Shrewd</br></br></br></br></div>
+		</div>
+		</br></br></br></br>
+
+		<h1>Abilities</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th colspan="6">Talents 
+						<span class="n-ary">
+							(
+								<div class="tooltip">primary
+									<span class="n-ary">
+										Extrapolated from having most dots in Talents
+									</span>
+								</div>
+							)
+						</span>
+					</th>
+					<th colspan="6">Skills 
+						<span class="n-ary">
+							(
+								<div class="tooltip">secondary
+									<span class="n-ary">
+										Extrapolated from and APP 2, which is more dots in <i>Social</i> than in <i>Mental</i>
+									</span>
+								</div>
+							)
+						</span>
+					</th>
+					<th colspan="6">Knowledges 
+						<span class="n-ary">
+							(
+								<div class="tooltip">tertiary
+									<span class="n-ary">
+										Extrapolated by method of exclusion
+									</span>
+								</div>
+							)
+						</span>
+					</th>
+				</tr>
+				<tr>
+					<td class="left"><div class="tooltip">Alertness<span class="abilities">I chose Alertness instead of the Revised Dodge, because noticing when to duck was the closet analog</span></div></td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">3 XP;</br>assigned instead of Dodge 1</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">2 XP;</br>assigned instead of Dodge 2</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Animal Ken</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Academics</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Athletics</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">1/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">2/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">3/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">2/2 Canon Leftover Points</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Crafts</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Computer</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Awareness</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Drive</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Finance</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Brawl</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">4/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">5/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">6/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">6 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><div class="tooltip"><span class="skilldot"></span><span class="abilities">8 XP</br><i>canonical</i></span></div></td>
+					<td class="left">Etiquette</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Investigation</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Empathy</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Firearms</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">1/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">2/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Law</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">1/5 Creation-Dots in Knowledges;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Expression</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Melee</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">3/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">4/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">5/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">6 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><div class="tooltip"><span class="skilldot"></span><span class="abilities">8 XP;</br><i>canonical</i></span></div></td>
+					<td class="left">Medicine</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Intimidation</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">7/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">8/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">6 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><div class="tooltip"><span class="skilldot"></span><span class="abilities">8 XP</br><i>canonical</i></span></div></td>
+					<td class="left">Performance</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Occult</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">2/5 Creation-Dots in Knowledges;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">2 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Leadership</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">9/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">10/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Security</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Politics</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Streetwise</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">11/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">12/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">13/13 Creation-Dots in Talents;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Stealth</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">6/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">2 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Science</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Subterfuge</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Survival</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">7/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">8/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities larger">9/9 Creation-Dots in Skills;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">6 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left"><div class="tooltip">Technology<span class="abilities">Jack was able to setup an entire trigger mechanism of explosives inside of an ancient sarcophagus</span></div></td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">3/5 Creation-Dots in Knowledges</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4/5 Creation-Dots in Knowledges</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">5/5 Creation-Dots in Knowledges</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div><!-- this div is required for formatting -->
+			<span class="specialties">Specialties</span>
+		</div>
+		<div class="floatleft specialtyfloat">
+			<div class="floath2">Athletics</div>
+			<div class="floatspecialty">♠ Parkour</br></div>
+		</div>
+		<div class="floatleft specialtyfloat">
+			<div class="floath2">Intimidation</div>
+			<div class="floatspecialty">♠ Threats of Violence</br>
+										♠ Veiled Threats
+			</div>
+		</div>
+		<div class="floatleft specialtyfloat">
+			<div class="floath2">Melee</div>
+			<div class="floatspecialty">♠ Swordfighting (British Royal Navy Style)</br>
+										♠ Improvised Weaponry
+			</div>
+		</div>
+		<!--------->
+		<div class="floatright specialtyfloat">
+			<div class="floath2">Brawl</div>
+			<div class="floatspecialty">♠ Throwing Punches</br>
+										♠ Dirty Fighting</div>
+		</div>
+		<div class="floatright specialtyfloat">
+			<div class="floath2">Survival</div>
+			<div class="floatspecialty">♠ Hunting</br></div>
+		</div>
+		<div class="floatright specialtyfloat">
+			<div class="floath2">something</div>
+			<div class="floatspecialty">♠ something</br></br>
+			</div>
+		</div>
+		</br></br></br></br>
+
+		<h1>Advantages</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th colspan="6">Disciplines</th>
+					<th colspan="6">Backgrounds</th>
+					<th colspan="6">Virtues</th>
+				</tr>
+				<tr>
+					<td class="left">Celerity</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">1/3 Discipline-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">5 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">10 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">15 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Allies</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Allies I:</br>1/5 Background-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Allies II:</br>2/5 Background-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Allies III:</br>1/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Conscience</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">1/7 Virtue-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">2/7 Virtue-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Potence</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">2/3 Discipline-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">5 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">10 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">15 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><div class="tooltip"><span class="skilldot"></span><span class="advantages">20 XP;</br><i>canonical</i></span></div></td>
+					<td class="left">Contacts</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Contacts I:</br>2/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Contacts II:</br>3/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Contacts II:</br>4/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Contacts IV:</br>5/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Contacts V:</br>6/15 Freebie Points;</br><i>canonical</i></span></div></td>
+				</tr>
+				<tr>
+					<td class="left">Presence</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Awe:</br>3/3 Discipline-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">Dread Gaze:</br>5 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">Entracement:</br>10 XP;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Generation</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Gen 12:</br>3/5 Background-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Gen 11:</br>4/5 Background-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Gen 10:</br>5/5 Background-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left self_control">Self-Control</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Auspex</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Heightened Senses:</br>10 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">Aura Perception:</br>7 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Resources</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Resources I:</br>7/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Resources II:</br>8/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Resources III:</br>9/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Fortitude</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">10 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">7 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">14 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">21 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Status</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Status I:</br>10/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Status II:</br>11/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages even_larger">Status III:</br>12/15 Freebie Points;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Courage</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">3/7 Virtue-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">4/7 Virtue-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">5/7 Virtue-Creation-Dots;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">6/7 Virtue-Creation-Dots;</br><i>canonical</i></span></div></td>
+				</tr>
+				<tr>
+					<td class="left">Thaumaturgy:</br>Path of Blood</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">A Taste for Blood: </br>10 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages larger">Blood Rage: </br>7 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Thaumaturgy:</br>Lure of Flames</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">7 XP</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<th colspan="6">Other Traits</th>
+					<th colspan="10"><span class="othertraits">Path of</span></th>
+					<th colspan="10"><span class="othertraits">Blood Pool</span></th>
+				</tr>
+				<tr>
+					<td class="left">Linguistics</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">3 XP;</br><i>canonical</i></br>Extra Language: French</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">2 XP;</br><i>canonical</i></br>Extra Language: Spanish</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger extra_large">4 XP;</br><i>canonical</i></br>Extra Languages: Dutch & Portuguese</span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="n-ary">6 XP;</br><i>canonical</i></br>Extra Languages: Antillian French Creole, Bajan English Creole, SOMETHING, SOMETHING</span></div></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<th colspan="10">Humanity</th>
+						<!--DOT-1--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-10--><td><span class="bloodpooldot"></span></td>
+				</tr>
+				<tr>
+					<td class="left"><i>Other Trait</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Humanity I:</br>Conscience 1;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Humanity II:</br>Conscience 2;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Humanity III:</br>Conscience 3;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Humanity IV:</br>Self-Control 1;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+						<!--DOT-6--><td><span class="skilldotempty"></span></td>
+						<!--DOT-7--><td><span class="skilldotempty"></span></td>
+						<!--DOT-8--><td><span class="skilldotempty"></span></td>
+						<!--DOT-9--><td><span class="skilldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="skilldotempty"></span></td>
+
+						<!--DOT-1--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td><span class="bloodpooldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left"><i>Other Trait</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+						<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+						<!--DOT-1--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td><span class="bloodpooldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left"><i>Other Trait</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<th colspan="10">Willpower</th>
+						<!--DOT-1--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td><span class="bloodpooldotempty"></span></td>
+				</tr>
+				<tr>
+					<td><!--Trait Name--></td>
+						<!--DOT-1--><td></td>
+						<!--DOT-2--><td></td>
+						<!--DOT-3--><td></td>
+						<!--DOT-4--><td></td>
+						<!--DOT-5--><td></td>
+
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Willpower I:</br>Courage 1;</br><i>canonical</i></span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Willpower II:</br>Courage 2;</br><i>canonical</i></span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Willpower III:</br>Courage 3;</br><i>canonical</i></span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Willpower IV:</br>Courage 4;</br><i>canonical</i></span></div></td>
+						<!--DOT-5--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2">Willpower V:</br>Courage 5;</br><i>canonical</i></span></div></td>
+						<!--DOT-6--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Willpower VI:</br>13/14 Freebie Points</br><i>canonical</i></span></div></td>
+						<!--DOT-7--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Willpower VII:</br>14/14 Freebie Points</br><i>canonical</i></span></div></td>
+						<!--DOT-8--><td><span class="skilldotempty"></span></td>
+						<!--DOT-9--><td><span class="skilldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="skilldotempty"></span></td>
+				</tr>
+			</table>
+		</div></br>
+
+		<h1>Backgrounds</h1>
+		<div class="greybox">
+			<img src="https://i.imgur.com/yYaFKBB.png" class="backgrounds_picture" align="left">
+			<div class="h4">
+				<span class="blue">Allies |</span> 3
+			</div>
+			<hr class="background-line"></br>
+			<div class="relation_info">
+				<img src="https://place-hold.it/92x61" class="backgrounds_retainer_ally_contact" align="left">
+				<span class="h2"><b>Owner of the <i>Last Round</i></b></span></br>
+				<div class="relation_info">The <i>Last Round</i> is a dive bar in Downtown Los Angeles that the local Anarchs 
+				are known to frequent. The owner is human - someone has to pay the bills - but either straight up knows a lot of 
+				his clients are vampires or suspects but doesn't give a shit. Either way, he doesn't ask questions, keeps the booze 
+				coming, and lets Jack crash in the cellar.</br>
+				Jack, in turn, is a loyal patron and occasionally assumes the role of both entertainer and bouncer. The former, due 
+				his natural charm, general disposition and the mortal remnants of his alcoholism; the latter due to him being 
+				particularly effective when it comes to dispelling bar fights or shoving an armed robber's gun up his ass.</div></br></br>
+
+				<img src="https://place-hold.it/92x61" class="backgrounds_retainer_ally_contact right" align="right">
+				<span class="h2 floatright"><b>A Curator at the <i>Natural History Museum</i></b></span></br>
+				<div class="relation_info right">We all need a hobby to occupy our nights. And when Jack's Humanity drops too low or he needs 
+				too... cool it with the explosives and violence for a little, he considers himself a bit of a patron of history scholars. 
+				As per usual, part of this past-time <i>is</i> self-serving in nature, but he considers it a win-win for all. After all, 
+				wouldn't we all want to know more about sleeping mummies in the Middle East?</br>
+				Either way, he has a friend who is a curator 
+				at the NHM in South LA, a mousey mid-40-year-old named <b>Mildred</b>, who is a rather shy soul that likes to burry herself in her 
+				work and is happy if she can lore-dump to someone. She's ultimately just a sweet soul and Jack feels a little bad even, 
+				that he shamelessly used the information he got from her to intercept the ship bringing the sarcophagus from Ankara...
+				</div></br></br>
+
+				<img src="https://place-hold.it/92x61" class="backgrounds_retainer_ally_contact" align="left">
+				<span class="h2">Someone else</b></span></br>
+				<div class="relation_info">lorem ipsum.</br>
+				</div></br>
+			</div>
+
+			</br></br></br></br>
+
+			<img src="https://i.imgur.com/3h0wlQz.png" class="backgrounds_picture" align="left">
+			<div class="h4"><span class="blue">Generation |</span> 10</br></div>
+			<hr class="background-line"></br>
+			<div class="relation_info backgrounds_margin"><b>Sire:</b> ???</br></br>
+				<div class="indentation">Jack is quite ellusive when it comes to his heritage - both mortal and immortal. He makes no 
+				secret of his Antediluvian ancestor (as if it wasn't <i>immediately</i> obvious that that's a 
+				descendant of Troile) but beyond that there are only educated guesses.</br></br></div>
+				<div class="indentation">When pressed for answers, Jack likes to name drop a woman he calls <b>Mama Lion</b> as his 
+				vampiric parent; whether or not this is his <i>actual sire</i> or the name of a cool Voodoo 
+				priestess he made up, is anybody's guess.</br>
+				Contemporaries of Jack in his mortal days, assume that it was one of the early Anarch explorers of the Caribbean, which 
+				one is hard to say, as many met Final Death in those early pioneering days.</div>
+				<center>
+					<ul class="tree">
+						<li><span>Troile</span>
+							<ul>
+								<li><span>???</span>
+									<ul>
+										<li><span>Mama Lion(?)</span>
+											<ul>
+												<li><span><b>Smiling Jack</b></span></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</center>
+				<div class="indentation">Rumor has it, that Jack might have also jumped Generations via <b>Diablerie</b>. Most people wouldn't put 
+				it past him, as Jack definitely displays the ruthlessness of someone capable of such an act. But it is assumed, 
+				that anyone with evidence of such an act, has long turned into ashes.</div></br></br></br>
+			</div>
+			<img src="https://place-hold.it/152x102" class="backgrounds_picture" align="right">
+			<div style="text-align:right;">
+				<div class="h4">
+					<span class="blue"><i>Background</i> |</span>SOMETHING
+				</div></br>
+			</div>
+			<div class="relation_info backgrounds_margin"><b>Key Point</b>: Something</br>
+				lorem ipsum
+			</div>
+			</br></br>
+			<img src="https://place-hold.it/152x102" class="backgrounds_picture" align="left">
+			<div class="h4">
+				<span class="blue"><i>Background</i> |</span>SOMETHING
+			</div>
+			<div class="relation_info backgrounds_margin"><b>Key Point</b>: Something</br>
+				lorem ipsum
+			</div>
+			</br></br></br></br>
+			<img src="https://place-hold.it/152x102" class="backgrounds_picture" align="right">
+			<div style="text-align:right;">
+				<div class="h4">
+					<span class="blue"><i>Background</i> |</span>SOMETHING
+				</div>
+			</div>
+			<div class="relation_info backgrounds_margin"><b>Key Point</b>: Something</br>
+				lorem ipsum</br>
+				<center>
+					<img src="https://place-hold.it/500x161" width="500px"></br>
+					</br>
+				</center>
+				lorem ipsum</br>
+				</br>
+				<center>
+					<img src="https://place-hold.it/190x237" width="190px">
+					<img src="https://place-hold.it/190x237" width="190px">
+					<img src="https://place-hold.it/190x237" width="190px">
+				</center></br>
+				</br>
+				lorem ipsum
+			</div>
+			</br></br></br></br>
+		</div>
+
+		<h1>Merits & Flaws</h1>
+		<div class="greybox">
+			<table class="left">
+				<tr>
+					<th align="left">Merit</th>
+					<th align="left">Cost</th>
+					<th align="left">Flaw</th>
+					<th align="left">Bonus</th>
+				</tr>
+				<tr>
+					<td>Eat Food</td>
+					<td>
+						<div class="tooltip">1-pt.<span class="merits">1/7 Flaw-Freebie-Points spent</span></div>
+					</td>
+					<td>Clan Enmity: Ventrue</td>
+					<td>
+						<div class="tooltip">4-pt.<span class="flaws">+4/7 Flaw-Freebie-Points accumulated</span></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Open Road</td>
+					<td>
+						<div class="tooltip">2-pt.<span class="merits">3/7 Flaw-Freebie-Points spent</span></div>
+					</td>
+					<td>Insubordinate</td>
+					<td>
+						<div class="tooltip">3-pt.<span class="flaws">+7/7 Flaw-Freebie-Points accumulated</span></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Rep</td>
+					<td>
+						<div class="tooltip">1-pt.<span class="merits">4/7 Flaw-Freebie-Points spent</span></div>
+					</td>
+					<td></td><td></td>
+				</tr>
+				<tr>
+					<td>Daredevil</td>
+					<td>
+						<div class="tooltip">3-pt.<span class="flaws">7/7 Flaw-Freebie-Points spent</span></div>
+					</td>
+					<td></td><td></td>
+				</tr>
+				<tr>
+					<td>Boon</td>
+					<td>
+						<div class="tooltip">1-pt.<span class="merits">15/15 Freebie Points</span></div>
+					</td>
+					<td></td><td></td>
+				</tr>
+			</table>
+			</div>
+		<div class="greybox">
+			<font class="listheading">Explanations |</font></br>
+			<span style="float:left">
+				<span class="h3">
+					<div class="tooltip"><b>Merit 1</b>
+						<span class="explanations">Explanation</span>
+					</div></br>
+				</span>
+				<!---->
+				<span class="h3">
+					<div class="tooltip"><b>Merit 2</b>
+						<span class="explanations">Explanation</span>
+					</div></br>
+				</span>
+				<!---->
+			</span>
+			<span style="float:right">
+				<span class="h3">
+					<div class="tooltip"><b>Flaw 1</b>
+						<span class="explanations">Explanation</span>
+					</div></br>
+				</span>
+				<!---->
+				<span class="h3">
+					<div class="tooltip"><b>Flaw 2</b>
+						<span class="explanations">Explanation</span>
+					</div></br>
+				</span>
+				<!---->
+			</span>
+		</div>
+		</br></br>
+		<div class="greybox">
+			<font class="listheading">Languages |</font></br>
+			<span class="h3">
+				<div class="tooltip"><b>English (native language)</b>
+					<span class="explanations">English is Jack's native language, so you'd think he didn't have to learn it. And 
+						while true, he didn't have to learn them the way he learned French or Spanish, he did have to make an 
+						effort to keep up. He is <i>actually</i> a native speaker of <i>Early Modern English</i> and is a contemporary 
+						of Shakespeare (by technicality, the poet died when Jack was 5). However, the Bristolian drawl of a 17th century 
+						sailor is not something that comes easy to him nowadays. As mentioned before, Jack is keeping up. Which means 
+						that seamless switching into a dialect that no one speaks with him anymore is not as automatic - like remembering 
+						how you used to talk when you were a teen and asking you to switch seamlessly.</br>
+						Nowadays Jack sounds broadly American. No region accent, maybe a little bit Los Angeles flavored, but that's it.
+					</span>
+				</div></br>
+			</span>
+			<!---->
+			<span class="h3">
+				<div class="tooltip"><b>French</b>
+					<span class="explanations">Jack was a buccanier - one of the very earliest. Back in those early colonial days you 
+						had to learn who your friends and foes were real fast. When Spain was still the major player in the Caribbean, 
+						it was the French and the English who had to stick together to stick it to the Dons in their Galleons full of 
+						gold and black powder.</br>
+						Jack's French isn't fantastic, he frequently uses Creole terms and it's just as vulgar and dirty as you'd 
+						imagine a seaman's yappings to be. It sounds a tad <i>Quebecois</i> at times, mostly because the French he 
+						learned is just very old and French Creole, which he <i>does</i> speak fluently, is also based off of a much 
+						older version of the language. That being said, he understands it, but doesn't use it much. He does go to Montréal 
+						every now and then, though. Great Poutine, shit-ass politics.
+					</span>
+				</div></br>
+			</span>
+			<!---->
+			<span class="h3">
+				<div class="tooltip"><b>Spanish</b>
+					<span class="explanations">As mentioned before, Jack was already in the Caribbean, when the Spanish crown still 
+						claimed all of the "New World" for itself, because their oh-so-great Admiral Colón discovered the Americas and 
+						now it belongs to them forever. Nope. Jack waged war as a naval soldier against these bastards until the Treaty 
+						of Madrid was signed in 1630. And then he turned pirate and continued fighting against them. So it was actually 
+						very useful, knowing what the hell they were writing in their correspondences or whatever they were shouting at you 
+						before you stab them in the eyesocket.</br>
+						Turns out Spanish should become a mainstay in the Caribbean, though, even after the Spanish left for good. There are 
+						just a lot of Spanish speakers in the Caribbean and the United States, so keeping up with the most recent lingo 
+						was not actually that hard. And don't forget the true Marxist-Leninist Brujah revolution in the 1950s Cuba, which 
+						Jack spent <i>entirely</i> in Havana, regretting to <i>this very day</i> that he didn't embrace Che when he had the 
+						time. This left Jack with a Cuban accent nowadays, even though he doesn't sound like a native speaker - there's 
+						actually a hint of Creole in his speech.
+					</span>
+				</div></br>
+			</span>
+			<!---->
+			<span class="h3">
+				<div class="tooltip"><b>Dutch</b>
+					<span class="explanations">Jack doesn't actually like the weird pseudo-English language from the small canal-nation 
+						from across the English channel, but these motherfuckers were <i>prolific</i> slave traders and you cannot live 
+						through the entire colonialization of the Caribbean, without encountering slavery for the majority of it. As young 
+						Jack grew into his philosophy on freedom, he began to think that it might be fun to sink Dutch slave ships and 
+						royally fuck the Dutch wherever he saw them. Yet again, it's a matter of simply understanding ship logs and shipmen 
+						begging for mercy.</br>
+						His Dutch isn't great and he frequently uses English words for the ones he doesn't know in Dutch but its understandable 
+						and he can read it alright. It's relatively close to English, so Jack kinda learned via osmosis, never really bothering 
+						to <i>actually</i> sit down and learn it.
+					</span>
+				</div></br>
+			</span>
+			<!---->
+			<span class="h3">
+				<div class="tooltip"><b>French Creole</b>
+					<span class="explanations">Jack is actually accentlessly fluent in Haitian Creole. It was the lingua franca you used 
+						in the West Indies. He knew it as <i>Saint-Domingue Creole</i> when he first picked it up, but it was what you 
+						should know if you wanted to speak with the local population and he's been speaking it for centuries at this point. 
+						When coming first to Los Angeles in the 1920s, he actually had a bit of a Caribbean accent speaking English, just 
+						because he had lived in the Caribbean for so long. Though he has been told he sounds a but like a boomer nowadays, 
+						thanks to having made the United States his main base of operations and not keeping up with how the kids talk as much.</br>
+						It is always a great party trick, though, to go to a Haitian restaurant, and have this pasty biker-looking white boy 
+						order some Pate Kode in perfect <i>kreyòl ayisyen</i>.</br>
+					</span>
+				</div></br>
+			</span>
+			<!---->
+		</div>
+
+		<h1>Spending tables</h1>
+		<div class="greybox">
+			<font class="h4 blue">Canon Leftover |</br></font>
+			The current Virtue-setup is canonical according to <i>LA by Night</i>. That is one dot less than 
+			Character Creation gives though. As such I record it here and use it later somewhere else.</br></br>
+			<table class="left">
+				<tr>
+					<td class="wider"><b>☠ 1 Virtue Dot</b></td>
+					<td><i>3 Conscience + 1 Self-Control + 5 Courage = 6; aka 1 dot less than 7 Virtue Character Creation Dots</i></td>
+				</tr>
+			</table>
+		</br>
+			The lowest possible dot I could get would be Self-Control 2, which would cost <b>2 Dots</b> if acquired via Freebies. As such,
+			that is what I set its worth to.
+		</div>
+		<!--------------------------------------------------------------->
+		<div class="greybox">
+			<font class="h4 blue">Flaw Point Accumulation |</br></font>
+			<table class="left">
+				<tr>
+					<td class="wider"><b>✪ 4 Flaw-Freebie Points (4/7)</b></td>
+					<td><i>Flaw 'Clan Enmity: Ventrue'</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 3 Freebie Points (7/7)</b></td>
+					<td><i>Flaw 'Insubordinate'</i></td>
+				</tr>
+				<tr><td><hr></td><td><hr></td></tr>
+			</table>
+		</div>
+		<!--------------------------------------------------------------->
+		<div class="greybox">
+			<font class="h4 blue">Freebie Spending |</br></font>
+			<table class="left">
+				<tr>
+					<td class="wider"><b>✪ 2 Canon Leftover Point (2/2)</b></td>
+					<td><i>Athletics 4</i></td>
+				</tr>
+				<tr><td><hr></td><td><hr></td></tr>
+				<tr>
+					<td><b>✪ 1 Flaw-Freebie Point (1/7)</b></td>
+					<td><i>Merit 'Eat Food'</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 2 Flaw-Freebie Points (3/7)</b></td>
+					<td><i>Merit 'Open Road'</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 1 Flaw-Freebie Point (4/7)</b></td>
+					<td><i>Merit 'Rep'</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 1 Flaw-Freebie Point (7/7)</b></td>
+					<td><i>Merit 'Daredevil'</i></td>
+				</tr>
+				<tr><td><hr></td><td><hr></td></tr>
+				<tr>
+					<td><b>✪ 1 Freebie Points (1/15)</b></td>
+					<td><i>Allies 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 5 Freebie Points (6/15)</b></td>
+					<td><i>Contacts 1-5</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 3 Freebie Points (9/15)</b></td>
+					<td><i>Resources 1-3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 3 Freebie Points (12/15)</b></td>
+					<td><i>Status 1-3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 2 Freebie Points (14/15)</b></td>
+					<td><i>Willpower 6-7</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 1 Freebie Point (15/15)</b></td>
+					<td><i>Merit 'Boon'</i></td>
+				</tr>
+			</table>
+		</div>
+		<div class="greybox">
+			<font class="h4 blue">XP Spending |</br></font>
+			<table class="left">
+				<tr>
+					<td class="wider"><b>✪ 12 XP</b></td>
+					<td><i>Strength 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 16 XP</b></td>
+					<td><i>Strength 5</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 8 XP</b></td>
+					<td><i>Dexterity 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 12 XP</b></td>
+					<td><i>Dexterity 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 12 XP</b></td>
+					<td><i>Charisma 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 16 XP</b></td>
+					<td><i>Charisma 5</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 12 XP</b></td>
+					<td><i>Manipulation 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 8 XP</b></td>
+					<td><i>Perception 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 8 XP</b></td>
+					<td><i>Wits 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 12 XP</b></td>
+					<td><i>Wits 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 3 XP</b></td>
+					<td><i>Alertness 1</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 2 XP</b></td>
+					<td><i>Alertness 2</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 6 XP</b></td>
+					<td><i>Brawl 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 8 XP</b></td>
+					<td><i>Brawl 5</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 4 XP</b></td>
+					<td><i>Intimidation 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 6 XP</b></td>
+					<td><i>Intimidation 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 8 XP</b></td>
+					<td><i>Intimidation 5</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 4 XP</b></td>
+					<td><i>Leadership 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 4 XP</b></td>
+					<td><i>Firearms 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 6 XP</b></td>
+					<td><i>Melee 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 8 XP</b></td>
+					<td><i>Melee 5</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 2 XP</b></td>
+					<td><i>Stealth 2</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 4 XP</b></td>
+					<td><i>Stealth 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 6 XP</b></td>
+					<td><i>Survival 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 2 XP</b></td>
+					<td><i>Occult 2</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 4 XP</b></td>
+					<td><i>Occult 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 3 XP</b></td>
+					<td><i>Linguistics 1</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 2 XP</b></td>
+					<td><i>Linguistics 2</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 4 XP</b></td>
+					<td><i>Linguistics 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 6 XP</b></td>
+					<td><i>Linguistics 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 10 XP</b></td>
+					<td><i>Auspex 1: Heightened Senses</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 7 XP</b></td>
+					<td><i>Auspex 2: Aura Perception</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 5 XP</b></td>
+					<td><i>Celerity 2</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 10 XP</b></td>
+					<td><i>Celerity 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 15 XP</b></td>
+					<td><i>Celerity 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 10 XP</b></td>
+					<td><i>Fortitude 1</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 7 XP</b></td>
+					<td><i>Fortitude 2</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 14 XP</b></td>
+					<td><i>Fortitude 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 21 XP</b></td>
+					<td><i>Fortitude 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 5 XP</b></td>
+					<td><i>Potence 2</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 10 XP</b></td>
+					<td><i>Potence 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 15 XP</b></td>
+					<td><i>Potence 4</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 20 XP</b></td>
+					<td><i>Potence 5</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 5 XP</b></td>
+					<td><i>Presence 2</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 10 XP</b></td>
+					<td><i>Presence 3</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 10 XP</b></td>
+					<td><i>Thaumaturgy 1: Path of Blood: A Taste for Blood</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 7 XP</b></td>
+					<td><i>Thaumaturgy 2: Path of Blood: Blood Rage</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ 7 XP</b></td>
+					<td><i>Lure of Flames 1</i></td>
+				</tr>
+			</table></br>
+			<b>Total:</b> 396 XP
+		</div>
+		</center>
+	</div>
+</body>
+
+</html>

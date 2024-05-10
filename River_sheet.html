@@ -1,0 +1,1447 @@
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Esteban&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<STYLE TYPE="TEXT/CSS">
+		:root {
+			/*********** FRAME **********/
+			--sheet-width: 650px;
+			--outerframe-border-style: double;
+			/*****************************/
+
+			/*********** COLORS **********/
+			--outerframe-color: #8c7436;
+			--main-color: #a66412;
+			--heading-color: #a15b00;
+			--background-color: #624522;
+			--greybox-color: #8b7357;
+			--quote-color: #666666;
+			--blood-accent-color: #d3a24d;
+			--text-color: #c4c1c1;
+			/*****************************/
+
+			/***** FONTS & FONT-SIZE *****/
+			--text-font: calibri;
+			--text-font-size: 13px;
+					/**/
+			--title-font: 'Almendra', serif;
+			--title-font-size: 23px;
+					/**/
+			--quote-font: "Just Another Hand", cursive;
+			--quote-font-size: 20px;
+					/**/
+			--h1-font: "Bellefair", serif;
+			--h1-font-size: 27px;
+					/**/
+			--listheading-font: 'Martel', serif;
+			--listheading-font-size: 15px;
+			/*****************************/
+
+			/********** PADDING **********/
+			--frame-padding: 20px;
+			--listpadding: 0px 5px 0px 0px;
+			/*****************************/
+		}
+
+		body {
+			background-color: var(--background-color);
+		}
+
+		#outerframe {
+			width: var(--sheet-width);
+			background: var(--background-color);
+			border: var(--outerframe-border-style) 12px var(--outerframe-color);
+			padding: var(--frame-padding);
+			font-family: var(--text-font);
+			font-size: var(--text-font-size);
+			margin: 0 auto;
+		}
+
+		#titlepicture {
+			border: solid 1px var(--main-color);
+			margin: 0px 0px var(--frame-padding) 0px;
+		}
+
+		#titlename {
+			font-family: var(--title-font);
+			font-size: var(--title-font-size);
+			text-transform: uppercase;
+			color: var(--main-color);
+		}
+
+		#titlequote {
+			font-family: var(--quote-font);
+			font-size: var(--quote-font-size);
+			color: var(--quote-color);
+			letter-spacing: 2px;
+			word-spacing: 5;
+			font-style: italic;
+		}
+
+		.quotationmarks {
+			font-family: 'Abril Fatface', cursive;
+			font-size: 40px;
+			color: var(--blood-accent-color);
+		}
+
+		/*TRANSFORM UPPERCASE*/
+		h1,
+		.h4,
+		.specialties,
+		.listheading {
+			text-transform: uppercase;
+		}
+
+
+		h1,
+		.specialties {
+			font-weight: normal;
+			font-family: var(--h1-font);
+			color: var(--heading-color);
+		}
+
+		h1 {
+			font-size: var(--h1-font-size);
+			margin: 20px 0 -10px 0;
+		}
+
+		.h2,
+		.h3 {
+			font-family: var(--listheading-font);
+			font-weight: bold;
+		}
+
+		.h2 {
+			font-size: var(--listheading-font-size);
+			margin: -5px;
+		}
+
+		.h3 {
+			font-size: 12px;
+		}
+
+		.h4 {
+			font-family: 'Abril Fatface', cursive;
+			font-size: 30px;
+			margin: -7px 0 0 0;
+		}
+
+		.blue {
+			color: var(--main-color);
+		}
+
+		.right {
+			text-align: right;
+		}
+
+		.greybox,
+		.floatspecialty {
+			background: var(--greybox-color);
+			padding: 10px;
+			text-align: justify;
+			color: var(--text-color);
+		}
+
+		.greybox,
+		.listtitle,
+		.relation_info,
+		.specialties {
+			font-size: var(--text-font-size);
+		}
+
+		.listheading {
+			color: var(--blood-accent-color);
+			padding: var(--listpadding);
+			font-family: var(--h1-font);
+			font-size: var(--listheading-font-size);
+		}
+
+		.listtitle {
+			padding: var(--listpadding);
+			font-weight: bold;
+			font-family: 'Martel', serif;
+			letter-spacing: 3px;
+		}
+
+		.backgrounds_margin {
+			margin: -7px 0 0 0;
+		}
+
+		.indentation {
+			text-indent: 25px;
+		}
+
+		.quotation {
+			font-size: 10px;
+			font-style: italic;
+		}
+
+		.backgrounds_retainer_ally_contact,
+		.backgrounds_picture {
+			border: solid 1px var(--main-color);
+		}
+
+		.backgrounds_retainer_ally_contact {
+			border-radius: 50%;
+			width: 15%;
+			margin: -0.6px 0 -0.6px 0;
+		}
+
+		.specialtyfloat {
+			width: 50%;
+		}
+
+		.floatleft {
+			float: left;
+		}
+
+		.floatright {
+			float: right;
+		}
+
+		.floath2 {
+			box-sizing: border-box;
+			padding: 5px;
+			background: #0f0f0f;
+			font-family: verdana;
+			font-size: 10px;
+			border-left: solid 5px var(--outerframe-color);
+			text-align: left;
+			text-transform: uppercase;
+			color: var(--quote-color);
+		}
+
+		.floatspecialty {
+			font-size: 11px;
+			margin: 2px 2px 2px 0px;
+		}
+
+		.skilldot:before {
+			content: "\25C9";
+			font-size: 18px;
+		}
+
+		.skilldotempty:before {
+			content: "\25CB";
+			font-size: 26px;
+		}
+
+		.skilldotrenown:before {
+			content: "\25CF";
+			font-size: 23px;
+		}
+
+		.bloodpooldot:before {
+			content: "\25A0";
+			font-size: 23px;
+		}
+
+		.bloodpooldotempty:before {
+			content: "\25A1";
+			font-size: 23px;
+		}
+
+		.n-ary {
+			font-size: 10px;
+		}
+
+		.rank {
+			width: 180px;
+		}
+
+		.tooltip {
+			position: relative;
+			display: inline-block;
+			border-bottom: 1px dashed #bcbcbc;
+		}
+
+		/***********This is the base of the tooltip hover********/
+		.tooltip .attributes,
+		.tooltip .abilities,
+		.tooltip .advantages,
+		.tooltip .advantages2,
+		.tooltip .n-ary,
+		.tooltip .merits,
+		.tooltip .flaws,
+		.tooltip .explanations {
+			visibility: hidden;
+			width: 120px;
+			background-color: var(--outerframe-color);
+			color: #baaeae;
+			text-align: center;
+			border-radius: 6px;
+			font-family: 'Esteban', serif;
+			font-optical-sizing: auto;
+			font-size: 14px;
+			letter-spacing: 0.5px;
+			line-height: 1.3;
+			font-weight: normal;
+			line-height: 120%;
+
+			/* Position the tooltip */
+			position: absolute;
+			z-index: 1;
+			margin-top: -63px;
+			margin-left: -4px;
+		}
+
+		/***********End********/
+		.tooltip .attributes {
+			margin-top: -48px;
+			padding: 5px 8px;
+		}
+
+		.tooltip .attributes.larger {
+			margin-top: -57px;
+		}
+
+		.tooltip .abilities {
+			width: 150px;
+			padding: 5px 8px;
+			margin-top: -48px;
+		}
+
+		.tooltip .abilities.larger {
+			margin-top: -65px;
+		}
+
+		.tooltip .advantages {
+			margin-top: -37px;
+		}
+
+		.tooltip .advantages.larger {
+			margin-top: -54px;
+		}
+
+		.tooltip .advantages2 {
+			margin-top: -55px;
+		}
+
+		.tooltip .advantages.even_larger,
+		.tooltip .advantages.extra_large,
+		.tooltip .advantages2.larger {
+			margin-top: -71px;
+		}
+
+		.tooltip .advantages2.extra_large {
+			width: 150px;
+		}
+
+		.tooltip .n-ary {
+			width: 250px;
+			margin-left: 5px;
+			margin-top: -9px;
+			padding: 5px 9px;
+		}
+
+		.tooltip .merits {
+			margin-top: -29px;
+		}
+
+		.tooltip .flaws {
+			margin-top: -44px;
+		}
+
+		.tooltip .explanations {
+			width: 600px;
+			margin-left: 5px;
+			margin-top: -12px;
+			text-align: justify;
+			text-indent: 20px;
+			padding: 14px 15px 14px 15px;
+		}
+
+		.tooltip:hover .attributes,
+		.tooltip:hover .abilities,
+		.tooltip:hover .advantages,
+		.tooltip:hover .advantages2,
+		.tooltip:hover .merits,
+		.tooltip:hover .flaws,
+		.tooltip:hover .n-ary,
+		.tooltip:hover .explanations {
+			visibility: visible;
+		}
+
+		.tree,
+		.tree ul,
+		.tree li {
+			list-style: none;
+			margin: 0;
+			padding: 1;
+			position: relative;
+			font-size: var(--text-font-size);
+		}
+
+		.tree {
+			margin: 1em 0 0;
+			text-align: center;
+		}
+
+		.tree,
+		.tree ul {
+			display: table;
+		}
+
+		.tree ul {
+			width: 100%;
+		}
+
+		.tree li {
+			display: table-cell;
+			padding: .5em 0;
+			vertical-align: top;
+		}
+
+		.tree li:before {
+			outline: solid 1px #666;
+			content: "";
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+
+		.tree li:first-child:before {
+			left: 50%;
+		}
+
+		.tree li:last-child:before {
+			right: 50%;
+		}
+
+		.tree code,
+		.tree span {
+			border: solid .1em #666;
+			border-radius: .2em;
+			display: inline-block;
+			margin: 0 .2em .5em;
+			padding: .2em .5em;
+			position: relative;
+		}
+
+		.tree ul:before,
+		.tree code:before,
+		.tree span:before {
+			outline: solid 1px #666;
+			content: "";
+			height: .5em;
+			left: 50%;
+			position: absolute;
+		}
+
+		.tree ul:before {
+			top: -.5em;
+		}
+
+		.tree code:before,
+		.tree span:before {
+			top: -.55em;
+		}
+
+		.tree>li {
+			margin-top: 0;
+		}
+
+		.tree>li:before,
+		.tree>li:after,
+		.tree>li>code:before,
+		.tree>li>span:before {
+			outline: none;
+		}
+
+		hr {
+			border: none;
+			border-top: 5px dashed var(--quote-color);
+			margin: -1 1;
+		}
+
+		.under-quote-line {
+			width: 30%;
+		}
+
+		table {
+			width: 100%;
+			color: var(--text-color);
+			padding: 0 15 0 0px;
+			text-align: center;
+			line-height: 110%;
+		}
+
+		.left {
+			text-align: left;
+		}
+
+		table td.end {
+			padding-right: 23px;
+		}
+
+		.wider {
+			width: 150px;
+		}
+
+		th {
+			font-family: 'Amarante', cursive;
+			font-size: 20px;
+		}
+
+		td,
+		th {
+			border: none;
+		}
+	</STYLE>
+</head>
+<meta charset="utf-8" />
+
+<body><meta charset= "utf-8"/>
+	<div id="outerframe">
+		<center>
+		<img src="https://media.allure.com/photos/62018100a5fe2a66011079b7/1:1/w_2000,h_2000,c_limit/Quannah-Chasinghorse-Allure-March-2022-1.jpg"
+			id="titlepicture" width=500px></br>
+		<font id="titlename">Hunts-by-the-River</font></br>
+		<div id="titlequote">
+			<span class="quotationmarks">“</span>
+			Some profound Quote
+			<span class="quotationmarks">”</span>
+		</div></br>
+		<img
+			src="https://cdn.discordapp.com/attachments/340041402647838721/1205270739150708746/jack_icon.png?ex=66185c59&is=6605e759&hm=165b4cb5630f423e51ebf2469942c664ed1c253a5e131467bd00c6ff913f67ef&">
+		</br></br>
+		<hr class="under-quote-line">
+		<h1>Personal Facts</h1>
+		<div class="greybox"></br>
+			<font class="listheading">Concept |</font>
+			<font class="listtitle">Ghost Council with a Winter's Teeth Heart</font></br>
+				River has the grit, the willpower and the pain-tolerance of a <i>Winter's Teeth</i>, having grown up in the 
+				cold northern regions of Alaska. However she is a member of the <i>Ghost Council</i>,and knows that sometimes 
+				you have to get dirty to get the job done. She's a perfect mixture of brains and brawn and I created her 
+				purposefully so that she is the polar opposite of my last Ghost Council character; who was shy and needed to 
+				find her voice.</br>
+				River does not need to find her voice. She she is self-assured, self-confident and knows what she wants.</br>
+			</br>
+			<font class="listheading">Name |</font>
+			<font class="listtitle">Chelsea Anderson, Hunts-by-the-River</font></br>
+				Her birthname is <i>Chelsea Anderson</i> and is called <i>Sia</i> by her mother and childhood friends to this day. 
+				to everyone else she is known by her Garou Name <i>Hunts-by-the-River</i>, or <i>River</i> for short, which she took 
+				after leaving her maternal ancestral home in Alaska to embark on the journey of becoming a member of the Garou Nation 
+				and the Ghost Council in paricular.</br>
+			</br>
+			<font class="listheading">Tribe |</font>
+			<font class="listtitle">Ghost Council</font></br>
+				Born on Winter's Teeth territory, it should have been clear from the start whom she was going to join. River is 
+				indigenous and part of the Alaskan First Nations people. However, she was born with Ghost Council Pure Breed. That 
+				caused a bit of a political kerfuffle, especially if you consider that her mother is not kin. But it was decided for 
+				her that it might be best to go with the ancestors who shine so strongly through her blood and she joined the Ghost 
+				Council after her Rite of Passage.</br>
+			</br>
+			<font class="listheading">Breed |</font>
+			<font class="listtitle">Homid</font></br>
+				River was born to a non-kin human woman. She has no idea who her father is, but he is either Garou or kin.</br>
+			</br>
+			<font class="listheading">Auspice |</font>
+			<font class="listtitle">Philodox</font></br>
+				Born under a half-moon and with a Tribal dispute as soon her First Change came about, he seemed to have been born to 
+				be a mediator. River is very occupied with the truth and with what's right but is very aware of the many nuances and 
+				complication on the way.</br>
+			</br>
+			<font class="listheading">Age |</font>
+			<font class="listtitle">28, born 1973</font></br>
+				Child of the 70s. Considering the high mortality rate of Garou, River is getting into a more respectable age.</br>
+			</br>
+			<font class="listheading">Origin |</font>
+			<font class="listtitle">Eagle, Alaska, United States</font></br>
+				Born to the Hän Hwëch'in First Nation, right next to the Canadian border, she calls the cold wilderness of the Arctic 
+				her home. She doesn't actually know, who her father is; her mother doesn't really like talking about it, but her grandma 
+				said that he's <i>a failed Indian rapper and don't ever trust a guy from the rez with an animal in his name</i>.
+				</i></br>
+			</br>
+			<font class="listheading">Nature |</font>
+			<font class="listtitle">
+				<div class="tooltip"><i>Nature</i>
+					<span class="explanations">lorem ipsum
+					</span>
+				</div>
+			</font>
+			</br>
+			</br>
+			<font class="listheading">Demeanor |</font>
+			<font class="listtitle">
+				<div class="tooltip"><i>Demeanor</i>
+					<span class="explanations">lorem ipsum
+					</span>
+				</div>
+			</font>
+			</br></br>
+		</div>
+
+		<h1>Attributes</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th colspan="6">Physical <span class="n-ary">( secondary )</span></th>
+					<th colspan="6">Social <span class="n-ary">( primary )</span></th>
+					<th colspan="6">Mental <span class="n-ary">( tertiary )</span></th>
+				</tr>
+				<tr>
+					<td class="left">Strength</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">1/5 Creation-Dots in Physical</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Charisma</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">1/7 Creation-Dots in Social</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">2/7 Creation-Dots in Social</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Perception</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">1/3 Creation-Dots in Mental</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Dexterity</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">2/5 Creation-Dots in Physical</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">3/5 Creation-Dots in Physical</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Manipulation</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">3/7 Creation-Dots in Social</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">4/7 Creation-Dots in Social</span></div></td>
+						<!--DOT-4--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">5/7 Creation-Dots in Social</span></div></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Intelligence</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">2/3 Creation-Dots in Mental</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Stamina</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">4/5 Creation-Dots in Physical</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">5/5 Creation-Dots in Physical</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Appearance</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">6/7 Creation-Dots in Social</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">7/7 Creation-Dots in Social</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Wits</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">Automatic assignment</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="attributes">3/3 Creation-Dots in Mental</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+			</table>
+		</div></br>
+		<div><!-- this div is required for formatting -->
+			<span class="specialties">Specialties</span>
+		</div>
+		<div class="floatleft specialtyfloat">
+			<div class="floath2">Manipulation</div>
+			<div class="floatspecialty">♠ lorem ipsum</div>
+		</div>
+		<!---------------->
+		<div class="floatright specialtyfloat">
+			<div class="floath2"><i>Attribute</i></div>
+			<div class="floatspecialty">♠ lorem ipsum</br></div>
+		</div>
+		</br></br></br></br>
+
+		<h1>Abilities</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th colspan="6">Talents <span class="n-ary">( secondary )</span></th>
+					<th colspan="6">Skills <span class="n-ary">( primary )</span></th>
+					<th colspan="6">Knowledges <span class="n-ary">( tertiary )</span></th>
+				</tr>
+				<tr>
+					<td class="left">Alertness</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">1/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Animal Ken</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">1/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">2/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">3/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Academics</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Athletics</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">2/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">3/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Crafts</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Computer</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Brawl</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">5/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Drive</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Enigmas</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">1/5 Creation-Dots in Knowledges</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Empathy</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">6/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Etiquette</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Investigation</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">2/5 Creation-Dots in Knowledges</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">3/5 Creation-Dots in Knowledges</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Expression</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">7/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Firearms</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">5/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Law</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Intimidation</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">8/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">9/9 Creation-Dots in Talents</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Larceny</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">6/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Medicine</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Leadership</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Melee</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">7/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Occult</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">4/5 Creation-Dots in Knowledges</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Primal Urge</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Performance</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Rituals</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">5/5 Creation-Dots in Knowledges</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Streetwise</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Stealth</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">8/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">9/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">10/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Science</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<td class="left">Subterfuge</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Survival</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">11/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">12/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="abilities">13/13 Creation-Dots in Skills</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td class="end"><span class="skilldotempty"></span></td>
+					<td class="left">Technology</td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div><!-- this div is required for formatting -->
+			<span class="specialties">Specialties</span>
+		</div>
+		<div class="floatleft specialtyfloat">
+			<div class="floath2"><i>Ability</i></div>
+			<div class="floatspecialty">♠ lorem ipsum</br></div>
+		</div>
+		<!--------->
+		<div class="floatright specialtyfloat">
+			<div class="floath2"><i>Ability</i></div>
+			<div class="floatspecialty">♠ lorem ipsum</div>
+		</div>
+		</br></br></br></br>
+
+		<h1>Advantages</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th colspan="10">Glory</th>
+					<th colspan="10">Rage</th>
+					<th colspan="6">Backgrounds</th>
+				</tr>
+				<tr><!--EXAMPLE BACKGROUND-->
+					<!--<div class="tooltip"><span class="skilldot"></span><span class="advantages">1/3 Discipline-Creation-Dots</span></div>-->
+					<!--EXAMPLE RENOWN-->
+					<!--<span class="skilldotrenown"></span>-->
+						<!--DOT-1--><td><span class="skilldotrenown"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+						<!--DOT-6--><td><span class="skilldotempty"></span></td>
+						<!--DOT-7--><td><span class="skilldotempty"></span></td>
+						<!--DOT-8--><td><span class="skilldotempty"></span></td>
+						<!--DOT-9--><td><span class="skilldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="skilldotempty"></span></td>
+
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Rage 1</br>Automatic assignment (Philodox)</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Rage 2</br>Automatic assignment (Philodox)</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Rage 3</br>Automatic assignment (Philodox)</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+						<!--DOT-6--><td><span class="skilldotempty"></span></td>
+						<!--DOT-7--><td><span class="skilldotempty"></span></td>
+						<!--DOT-8--><td><span class="skilldotempty"></span></td>
+						<!--DOT-9--><td><span class="skilldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="skilldotempty"></span></td>
+
+					<td class="left">Pure Breed</td>
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">1/5 Background-Creation-Dots</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages">2/5 Background-Creation-Dots</span></div></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+
+				</tr>
+				<tr>
+						<!--DOT-1--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="bloodpooldotempty"></span></td>
+
+						<!--DOT-1--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="bloodpooldotempty"></span></td>
+
+					<td class="left"><i>Background</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<th colspan="10">Honor</th>
+					<th colspan="10">Gnosis</th>
+					<td class="left"><i>Background</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+						<!--DOT-1--><td><span class="skilldotrenown"></span></td>
+						<!--DOT-2--><td><span class="skilldotrenown"></span></td>
+						<!--DOT-3--><td><span class="skilldotrenown"></span></td>
+						<!--DOT-4--><td><span class="skilldotrenown"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+						<!--DOT-6--><td><span class="skilldotempty"></span></td>
+						<!--DOT-7--><td><span class="skilldotempty"></span></td>
+						<!--DOT-8--><td><span class="skilldotempty"></span></td>
+						<!--DOT-9--><td><span class="skilldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="skilldotempty"></span></td>
+
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Gnosis 1</br>Automatic assignment (Homid)</span></div></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+						<!--DOT-6--><td><span class="skilldotempty"></span></td>
+						<!--DOT-7--><td><span class="skilldotempty"></span></td>
+						<!--DOT-8--><td><span class="skilldotempty"></span></td>
+						<!--DOT-9--><td><span class="skilldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="skilldotempty"></span></td>
+
+					<td class="left"><i>Background</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+						<!--DOT-1--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="bloodpooldotempty"></span></td>
+
+						<!--DOT-1--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="bloodpooldotempty"></span></td>
+
+					<td class="left"><i>Background</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+					<th colspan="10">Wisdom</th>
+					<th colspan="10">Willpower</th>
+					<td class="left"><i>Background</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+				</tr>
+				<tr>
+						<!--DOT-1--><td><span class="skilldotrenown"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+						<!--DOT-6--><td><span class="skilldotempty"></span></td>
+						<!--DOT-7--><td><span class="skilldotempty"></span></td>
+						<!--DOT-8--><td><span class="skilldotempty"></span></td>
+						<!--DOT-9--><td><span class="skilldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="skilldotempty"></span></td>
+
+						<!--DOT-1--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Willpower 1</br>Automatic assignment (Ghost Council)</span></div></td>
+						<!--DOT-2--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Willpower 2</br>Automatic assignment (Ghost Council)</span></div></td>
+						<!--DOT-3--><td><div class="tooltip"><span class="skilldot"></span><span class="advantages2 larger">Willpower 3</br>Automatic assignment (Ghost Council)</span></div></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+						<!--DOT-6--><td><span class="skilldotempty"></span></td>
+						<!--DOT-7--><td><span class="skilldotempty"></span></td>
+						<!--DOT-8--><td><span class="skilldotempty"></span></td>
+						<!--DOT-9--><td><span class="skilldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="skilldotempty"></span></td>
+
+					<td class="left"><i>Background</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+
+				</tr>
+				<tr>
+						<!--DOT-1--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="bloodpooldotempty"></span></td>
+
+						<!--DOT-1--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-2--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-3--><td><span class="bloodpooldot"></span></td>
+						<!--DOT-4--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-5--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-6--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-7--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-8--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-9--><td><span class="bloodpooldotempty"></span></td>
+						<!--DOT-10--><td class="end"><span class="bloodpooldotempty"></span></td>
+
+					<td class="left"><i>Background</i></td>
+						<!--DOT-1--><td><span class="skilldotempty"></span></td>
+						<!--DOT-2--><td><span class="skilldotempty"></span></td>
+						<!--DOT-3--><td><span class="skilldotempty"></span></td>
+						<!--DOT-4--><td><span class="skilldotempty"></span></td>
+						<!--DOT-5--><td><span class="skilldotempty"></span></td>
+					</td>
+				</tr>
+			</table>
+			<table class="rank">
+				<th class="left">Rank:</th>  <td class="left">2 (Fostern)</td>
+			</table>
+		</div></br></br>
+
+		<h1>Gifts</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th>Gift</th>
+					<th>Rank</th>
+					<th>Description</th>
+					<th>Cost</th>
+				</tr>
+				<tr>
+					<td>Master of Fire</td>
+					<td>1</td>
+					<td class="left">Once humans tamed fire to keep them warm and to drive off the wild beasts, 
+						they were humanity's ancient pact with the spirits of fire. The spirits of flame agree to hold back 
+						their hunger when the werewolf touches them. An ancestor spirit or a fire-spirit grants this Gift.</br>
+						<b>System:</b> This Gift allows a werewolf to heal fire damage as if it were bashing. This requires 
+						the expenditure of a Gnosis point; the effects last for a scene.
+					</td>
+					<td>Homid Starting Gift</td>
+				</tr>
+				<tr>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+				</tr>
+				<tr>
+					<td>Scent of the True Form</td>
+					<td>1</td>
+					<td class="left">This Gift allows the Garou to determine the true nature of a person. This 
+						information is conveyed as an olfactory sensation — it is actually a scent of the target's natural form. 
+						Any spirit servant of Gaia can teach this Gift.</br>
+						<b>System:</b> The Garou can tell automatically when someone is a werewolf; anything else requires a 
+						Perception + Primal-Urge roll. It takes two successes to detect vampires, faeries or other shapeshifters 
+						as such, and it takes four to detect fomori or mages.
+					</td>
+					<td>Philodox Starting Gift</td>
+				</tr>
+				<tr>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+				</tr>
+				<tr>
+					<td>Sense Magic</td>
+					<td>1</td>
+					<td class="left">The Uktena can discern magical energies, whether they emanate from Garou Gifts, 
+						vampiric wizardry or even human magic. A spirit servant of Uktena teaches this Gift.</br>
+						<b>System:</b> The player rolls Perception + Enigmas. The difficulty is based on the strength and subtlety 
+						of the magic. The Uktena cannot tell the exact nature of the magic, although vague clues such as “Gaian” 
+						or “blood magic” might be granted with sufficient successes. The radius is 10 feet per success.
+					</td>
+					<td>Ghost Council Starting Gift</td>
+				</tr>
+				<tr>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+				</tr>
+				<tr>
+					<td><i>Name</i></td>
+					<td><i>Rank</i></td>
+					<td class="left">lorem ipsum
+					</br>
+						<b>Chimmerage</b>: lorem ipsum
+					</td>
+					<td>Who taught</td>
+				</tr>
+				<tr>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+				</tr>
+			</table>
+		</div>
+		<h1>Rites</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th>Rite</th>
+					<th>Type</th>
+					<th>Description</th>
+					<th>Got it from</th>
+				</tr>
+				<tr>
+					<td><i>Name</i></td>
+					<td><i>Type</i></br><i>Level</i></td>
+					<td class="left">lorem ipsum</br></td>
+					<td><i>from who/where</i></td>
+				</tr>
+				<tr>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+					<td><hr></td>
+				</tr>
+			</table>
+		</div>
+		<h1>Fetishes</h1>
+		<div class="greybox">
+			<table>
+				<tr>
+					<th>Fetish</th>
+					<th>Level</th>
+					<th>Gnosis</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td><i>Name</i></td>
+					<td><i>Level</i></td>
+					<td><i>Gnosis</i></td>
+					<td class="left">lorem ipsum</td>
+				</tr>
+			</table>
+		</div>
+
+		<h1>Backgrounds</h1>
+		<div class="greybox">
+			<img src="https://i.imgur.com/yYaFKBB.png" class="backgrounds_picture" align="left">
+			<div class="h4">
+				<span class="blue"><i>Background</i> |</span> Something
+			</div>
+			<hr class="background-line"></br>
+			<div class="relation_info">
+				<img src="https://place-hold.it/92x61" class="backgrounds_retainer_ally_contact" align="left">
+				<span class="h2"><b>Name Surname</b></span></br>
+				<div class="relation_info">Description</div></br></br>
+
+				<img src="https://place-hold.it/92x61" class="backgrounds_retainer_ally_contact right" align="right">
+				<span class="h2 floatright"><b>Name Surname</b></span></br>
+				<div class="relation_info right">Description</div></br></br>
+			</div>
+
+			</br></br></br></br>
+
+			<img src="https://i.imgur.com/3h0wlQz.png" class="backgrounds_picture" align="left">
+			<div class="h4"><span class="blue"><i>Background</i> |</span> something</br></div>
+			<hr class="background-line"></br>
+			<div class="relation_info backgrounds_margin"><b>Key Point:</b> ???</br></br>
+				<div class="indentation">Description</div>
+				<center>
+					<ul class="tree">
+						<li><span>???</span>
+							<ul>
+								<li><span>???</span>
+									<ul>
+										<li><span>???</span></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</center>
+			</br></br></br>
+			</div>
+			<img src="https://place-hold.it/152x102" class="backgrounds_picture" align="right">
+			<div style="text-align:right;">
+				<div class="h4">
+					<span class="blue"><i>Background</i> |</span>SOMETHING
+				</div></br>
+			</div>
+			<div class="relation_info backgrounds_margin"><b>Key Point</b>: Something</br>
+				lorem ipsum
+			</div>
+			</br></br>
+			<img src="https://place-hold.it/152x102" class="backgrounds_picture" align="left">
+			<div class="h4">
+				<span class="blue"><i>Background</i> |</span>SOMETHING
+			</div>
+			<div class="relation_info backgrounds_margin"><b>Key Point</b>: Something</br>
+				lorem ipsum
+			</div>
+			</br></br></br></br>
+			<img src="https://place-hold.it/152x102" class="backgrounds_picture" align="right">
+			<div style="text-align:right;">
+				<div class="h4">
+					<span class="blue"><i>Background</i> |</span>SOMETHING
+				</div>
+			</div>
+			<div class="relation_info backgrounds_margin"><b>Key Point</b>: Something</br>
+				lorem ipsum</br>
+				<center>
+					<img src="https://place-hold.it/500x161" width="500px"></br>
+					</br>
+				</center>
+				lorem ipsum</br>
+				</br>
+				<center>
+					<img src="https://place-hold.it/190x237" width="190px">
+					<img src="https://place-hold.it/190x237" width="190px">
+					<img src="https://place-hold.it/190x237" width="190px">
+				</center></br>
+				</br>
+				lorem ipsum
+			</div>
+			</br></br></br></br>
+		</div>
+
+		<h1>Merits & Flaws</h1>
+		<div class="greybox">
+			<table class="left">
+				<tr>
+					<th align="left">Merit</th>
+					<th align="left">Cost</th>
+					<th align="left">Flaw</th>
+					<th align="left">Bonus</th>
+				</tr>
+				<tr>
+					<td><i>Merit</i></td>
+					<td>
+						<div class="tooltip">?-pt.<span class="merits">?/7 (Flaw-)Freebie-Points</span></div>
+					</td>
+					<td><i>Flaw</i></td>
+					<td>
+						<div class="tooltip">?-pt.<span class="flaws">+?/7 Flaw-Freebie-Points accumulated</span></div>
+					</td>
+				</tr>
+				<tr>
+					<td><i>Merit</i></td>
+					<td>
+						<div class="tooltip">?-pt.<span class="merits">?/7 (Flaw-)Freebie-Points</span></div>
+					</td>
+					<td><i>Flaw</i></td>
+					<td>
+						<div class="tooltip">?-pt.<span class="flaws">+?/7 Flaw-Freebie-Points accumulated</span></div>
+					</td>
+				</tr>
+			</table>
+			</div>
+		<div class="greybox">
+			<font class="listheading">Explanations |</font></br>
+			<span style="float:left">
+				<span class="h3">
+					<div class="tooltip"><b>Merit 1</b>
+						<span class="explanations">Explanation</span>
+					</div></br>
+				</span>
+				<!---->
+				<span class="h3">
+					<div class="tooltip"><b>Merit 2</b>
+						<span class="explanations">Explanation</span>
+					</div></br>
+				</span>
+				<!---->
+			</span>
+			<span style="float:right">
+				<span class="h3">
+					<div class="tooltip"><b>Flaw 1</b>
+						<span class="explanations">Explanation</span>
+					</div></br>
+				</span>
+				<!---->
+				<span class="h3">
+					<div class="tooltip"><b>Flaw 2</b>
+						<span class="explanations">Explanation</span>
+					</div></br>
+				</span>
+				<!---->
+			</span>
+		</div>
+		</br></br>
+		<div class="greybox">
+			<font class="listheading">Languages |</font></br>
+			<span class="h3">
+				<div class="tooltip"><b>Language (native language)</b>
+					<span class="explanations">description
+					</span>
+				</div></br>
+			</span>
+			<!---->
+			<span class="h3">
+				<div class="tooltip"><b>Language</b>
+					<span class="explanations">description
+					</span>
+				</div></br>
+			</span>
+		</div>
+
+		<h1>Spending tables</h1>
+		<div class="greybox">
+			<font class="h4 blue">Flaw Point Accumulation |</br></font>
+			<table class="left">
+				<tr>
+					<td class="wider"><b>✪ ? Flaw-Freebie Points (?/7)</b></td>
+					<td><i>Description</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ ? Freebie Points (?/7)</b></td>
+					<td><i>Description</i></td>
+				</tr>
+				<tr><td><hr></td><td><hr></td></tr>
+			</table>
+		</div>
+		<!--------------------------------------------------------------->
+		<div class="greybox">
+			<font class="h4 blue">Freebie Spending |</br></font>
+			<table class="left">
+				<tr>
+					<td class="wider"><b>✪ ? (Flaw-)Freebie Point (?/7)</b></td>
+					<td><i>Description</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ ? Freebie Points (?/15)</b></td>
+					<td><i>Description</i></td>
+				</tr>
+				<tr><td><hr></td><td><hr></td></tr>
+				<tr>
+					<td><b>✪ ? Freebie Points (?/15)</b></td>
+					<td><i>Description</i></td>
+				</tr>
+			</table>
+		</div>
+		<div class="greybox">
+			<font class="h4 blue">XP Spending |</br></font>
+			<table class="left">
+				<tr>
+					<td class="wider"><b>✪ ?? XP</b></td>
+					<td><i>Description</i></td>
+				</tr>
+				<tr>
+					<td><b>✪ ?? XP</b></td>
+					<td><i>Description</i></td>
+				</tr>
+			</table></br>
+			<b>Total:</b> ??? XP
+		</div>
+		</center>
+	</div>
+</body>
+
+</html>
