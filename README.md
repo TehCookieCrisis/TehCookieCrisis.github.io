@@ -1,16 +1,7 @@
 under construction
 -------------------
 
-Copyright 2024 Kati Schulze
-
-Please note that I do not own any of the image- and video-material displayed on this repository.
-
-Additionally, I do not claim ownership of the World of Darkness franchise and the character of Smiling Jack.
-
-I merely own the code and the original characters Brianna & River.
-
---------
-Copyright 2024 Kati Schulze
+© Copyright 2024 Kati Schulze
 
 All content on this Github pages repository, unless otherwise noted, is protected by copyright law and owned by Kati Schulze.
 
