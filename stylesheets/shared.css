@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap'); /* check whether still needed */
 @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /* check whether still needed */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap'); /* check whether still needed */
 
 :root {
@@ -31,8 +31,9 @@
     --specialties-text-color: #ffffff;
     /*****************************/
 
+    /*TODO: Montserrat is good for Attributes & Abilities but chose a different main font*/
     /***** FONTS & FONT-SIZE *****/
-    --text-font: "Josefin Sans", sans-serif;
+    --text-font: "Montserrat", sans-serif;
     --text-font-size: 13px;
             /**/
     --title-font: 'Almendra', serif;
