@@ -2,13 +2,15 @@
 
 :root {
     /*********** COLORS **********/
+    --background-color: #000000;
     --outerframe-color: #4c0e0e;
     --main-color: #921f1f;
-    --heading-color: #6b1313;
-    --background-color: #000000;
     --greybox-color: #000000;
-    --blood-accent-color: #dd1010;
+    --accent-color: #dd1010;
+    --heading-color: #6b1313;
     --text-color: #9e9c9c;
+    --specialties-color: #0f0f0f;
+    --specialties-text-color: #666666;
     /*****************************/
 }
 
