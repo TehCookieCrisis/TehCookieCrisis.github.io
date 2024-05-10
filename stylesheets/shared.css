@@ -5,11 +5,15 @@
     /*****************************/
 
     /*********** COLORS **********/
+    /*** shared ***/
+    --greybox-color: #000000;
+
+    /*** splat ***/
+    /* TODO: CHANGE DEFAULT COLORS FOR SHARED */
     --outerframe-color: #4c0e0e;
     --main-color: #921f1f;
     --heading-color: #6b1313;
     --background-color: #000000;
-    --greybox-color: #000000;
     --quote-color: #666666;
     --blood-accent-color: #dd1010;
     --text-color: #9e9c9c;
@@ -239,10 +243,6 @@ h1 {
 
 .n-ary {
     font-size: 10px;
-}
-
-.othertraits {
-    margin-right: 23%
 }
 
 .tooltip {
@@ -477,10 +477,6 @@ table td.end {
 
 .wider {
     width: 150px;
-}
-
-.self_control {
-    min-width: 80px;
 }
 
 .sadhana {

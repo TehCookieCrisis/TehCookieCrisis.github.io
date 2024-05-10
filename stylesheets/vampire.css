@@ -1,0 +1,19 @@
+:root {
+    /*********** COLORS **********/
+    --outerframe-color: #4c0e0e;
+    --main-color: #921f1f;
+    --heading-color: #6b1313;
+    --background-color: #000000;
+    --greybox-color: #000000;
+    --blood-accent-color: #dd1010;
+    --text-color: #9e9c9c;
+    /*****************************/
+}
+
+.self_control {
+    min-width: 80px;
+}
+
+.othertraits {
+    margin-right: 23%
+}

@@ -1,0 +1,20 @@
+:root {
+    /*********** COLORS **********/
+    --outerframe-color: #8c7436;
+	--main-color: #a66412;
+	--heading-color: #a15b00;
+	--background-color: #624522;
+	--greybox-color: #8b7357;
+	--blood-accent-color: #d3a24d;
+	--text-color: #c4c1c1;
+    /*****************************/
+}
+
+.skilldotrenown:before {
+    content: "\25CF";
+    font-size: 23px;
+}
+
+.rank {
+    width: 180px;
+}
