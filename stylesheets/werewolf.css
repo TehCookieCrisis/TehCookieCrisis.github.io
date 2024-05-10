@@ -1,3 +1,5 @@
+@import url('shared.css');
+
 :root {
     /*********** COLORS **********/
     --outerframe-color: #8c7436;
