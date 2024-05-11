@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital@0;1&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {
     /*********** FRAME **********/
@@ -138,7 +139,7 @@ h1 {
 .h4 {
     font-family: 'Abril Fatface', cursive;
     font-size: 30px;
-    margin: -7px 0 0 0;
+    display: inline;
 }
 
 .blue {
