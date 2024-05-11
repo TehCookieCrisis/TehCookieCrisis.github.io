@@ -8,7 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teachers:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
 
 :root {
     /*********** FRAME **********/
@@ -150,6 +153,11 @@ h1 {
     text-align: right;
 }
 
+.bold {
+    font-family: "Merriweather", serif;;
+    font-weight: bolder;
+}
+
 .greybox,
 .floatspecialty {
     background: var(--greybox-color);
@@ -177,10 +185,6 @@ h1 {
     font-weight: bold;
     font-family: 'Martel', serif;
     letter-spacing: 3px;
-}
-
-.backgrounds_margin {
-    margin: -7px 0 0 0;
 }
 
 .indentation {
@@ -450,6 +454,12 @@ h1 {
     top: -.5em;
 }
 
+.tree ul.vague:before,
+.tree code.vague:before,
+.tree span.vague:before {
+    outline: dotted 1px #666;
+}
+
 .tree code:before,
 .tree span:before {
     top: -.55em;
@@ -498,7 +508,7 @@ table td.stats {
 }
 
 .wider {
-    width: 150px;
+    width: 220px;
 }
 
 th {
