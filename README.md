@@ -7,7 +7,7 @@ All content on this Github pages repository, unless otherwise noted, is protecte
 
 Please be advised that Kati Schulze explicitly disclaims ownership of any image and video material displayed within this repository. Such materials are utilized for entertainment purposes only.
 
-Furthermore, Kati Schulze does not assert ownership over the World of Darkness franchise, including the character of Smiling Jack. These materials are used under fair use provisions.
+Furthermore, Kati Schulze does not assert ownership over the World of Darkness franchise, including the character of Smiling Jack, Gary Golden or Leila Monroe. These materials are used under fair use provisions.
 
 It is emphasized that Kati Schulze exclusively holds ownership rights over the code and original characters Brianna & River featured herein.
 
