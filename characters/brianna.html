@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../stylesheets/vampire.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/contenteditable.css">
     <script src="./js/script.js"></script>
+	<script src="./js/button-logic.js"></script>
 </head>
 
 <body>
@@ -17,20 +19,22 @@
 		</div></br>
 		<img id="profilepicture" src="">
 		</br></br>
+		<button class="btn" id="undo" disabled>Undo Changes</button>
+  		<button class="btn" id="save" disabled>Save Content</button>
 		<hr class="under-quote-line">
 		<h1>Personal Facts</h1>
 		<div class="greybox"></br>
 			<font class="listheading">Concept |</font>
-			<font id="concept" class="listtitle"></font></br>
-                <span id="concept-description"></span></br>
+			<font id="concept" class="listtitle" contenteditable="true">Character Concept</font></br>
+                <span id="concept-description">Description</span></br>
 			</br>
 			<font class="listheading">Name |</font>
 			<font id="name" class="listtitle">Character Name</font></br>
-				<span id="name-description"></span></br>
+				<span id="name-description">Description</span></br>
 			</br>
 			<font class="listheading">Clan |</font>
 			<font id="clan" class="listtitle">Clan</font></br>
-				<span id="clan-description"></span></br>
+				<span id="clan-description">Description</span></br>
 			</br>
 			<font class="listheading">Generation |</font>
 			<font class="listtitle">Gen</font></br>
